@@ -1,0 +1,124 @@
+%-------------------------
+% Resume in Latex
+% Author : Vu Nguyen Quoc Huy
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\definecolor{cvblue}{RGB}{14, 84, 132}  % Corrected format for RGB
+\definecolor{myblack}{RGB}{19, 8, 16}   % Renamed 'black' to 'myblack'
+\definecolor{mydarkcolor}{RGB}{15, 69, 57}  % Renamed 'darkcolor' to 'mydarkcolor'
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-1pt}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small#4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.2in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.3in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\huge \textbf{Vu Nguyen Quoc Huy}} \\[0.2cm]
+    \textit{\large Web Developer Intern} \\[0.2cm]  % Added Job Title
+    \small {\faPhone \ 0938-62-8450} \hspace{0.3cm} 
+    \small {\faEnvelope \ \href{mailto:vunguyenquochuy2000@gmail.com}{vunguyenquochuy2000@gmail.com}} \hspace{0.3cm} 
+    \small {\faMapMarker \ \href{https://goo.gl/maps/ksnG1aAaKzbD3cYd9}{ Tan Binh, Ho Chi Minh}} \hspace{0.3cm} 
+    \small {\faGithub \ \href{https://github.com/Huyvuvu}{github.com/Huyvuvu}} 
+\end{center}
+
+
+%-----------ABOUT ME-----------
+\section*{ABOUT ME}
+I strive to become an excellent web designer, focusing on creating user-friendly, aesthetically pleasing and creative designs.
+
+%-----------EDUCATION-----------
+\section*{EDUCATION}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {ITC College of Information Technology}{Ho Chi Minh, Vietnam}
+    {Major: Website Design}{2023 -- 2025}
+  \resumeItemListStart
+    \resumeItem{GPA: 3.23/4.0}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section*{SKILLS}
+\resumeItemListStart
+  \resumeItem{\textbf{Front-end:} HTML, CSS(SCSS), JavaScript, Bootstrap5, ReactJS, Angular, VueJS}
+  \resumeItem{\textbf{Back-end:} Java, JavaScript, PHP, NodeJS(Express), Laravel}
+  \resumeItem{\textbf{Database:} MySQL, MongoDB}
+  \resumeItem{\textbf{Languages:} English (Intermediate)}
+\resumeItemListEnd
+
+%-----------EXPERIENCE-----------
+\section*{EXPERIENCE (PERSONAL PROJECT)}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Online Shopping Website}{Remote}
+    {React - Vite}{2024}
+  \resumeItemListStart
+    \resumeItem{CRUD operations on products and user login}
+    \resumeItem{Languages: HTML, CSS, JavaScript, React}
+    \resumeItem{Database: DummyJSON API}
+    \resumeItem{\href{https://github.com/Huyvuvu/ShopBanHang}{GitHub Repo} | \href{https://shop-ban-hang1.vercel.app/}{Live Demo}}
+  \resumeItemListEnd
+
+  \resumeSubheading
+    {Online Shopping Website}{Remote}
+    {PHP}{2024}
+  \resumeItemListStart
+    \resumeItem{CRUD operations on users and products, login, and authorization}
+    \resumeItem{Languages: HTML, CSS, JavaScript, PHP}
+    \resumeItem{Database: MySQL}
+    \resumeItem{\href{https://github.com/Huyvuvu/shopbh-php}{GitHub Repo}}
+  \resumeItemListEnd
+
+  \resumeSubheading
+    {Employee Management Website}{Remote}
+    {NodeJS}{2024}
+  \resumeItemListStart
+    \resumeItem{CRUD operations for user and product management}
+    \resumeItem{Languages: HTML, CSS, JavaScript, NodeJS}
+    \resumeItem{Database: MongoDB}
+    \resumeItem{\href{https://github.com/Huyvuvu/QuanLyNV-NodeJS}{GitHub Repo}}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EXTRACURRICULAR ACTIVITIES-----------
+\section*{EXTRACURRICULAR ACTIVITIES}
+\resumeItemListStart
+  \resumeItem{\textbf{Green Summer (2023 - 2024)}: Volunteer activities such as making banh chung for Tet, discussing IT benefits, and participating in school events.}
+  \resumeItem{\textbf{FPT Software Participant (2023)}: Learned about the working environment of FPT Software.}
+\resumeItemListEnd
+
+\end{document}
